@@ -1,0 +1,54 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*End of Common Styles*/
+
+/*Page Background*/
+
+.whole-body-container{
+    height:1000px;
+    background-image:url("images/IMG_0811-crop.JPG");
+    background-size: cover;
+}
+
+.rust{
+    color:#b77f61;
+}
+
+.grey{
+    color:#707070;
+}
+
+.page-headers{
+    display:flex;
+    justify-content: space-between;
+}
+
+.name-header, .role-header{
+    font-size:5.5rem;
+    font-weight:300;
+    line-height: 6.5rem;
+    margin: 0 0 0 4rem;
+}
+
+.contact-header{
+    font-size:4rem;
+    font-weight:300;
+    color: #707070;
+    margin: 7.5rem 4rem 0 0;
+}
+
+/*Grid over Paper*/
