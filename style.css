@@ -19,22 +19,43 @@ html{
 /*Page Background*/
 
 .whole-body-container{
-    height:1000px;
-    background-image:url("images/IMG_0811-crop.JPG");
+    height:2200px;
+    background-image:url("images/IMG_1034.jpeg");
     background-size: cover;
 }
 
+/*.homescreen-img-wrapper{
+    width:100%;
+    height:1800px;
+}
+
+.homescreen-img{
+    width:100%;
+    height:100%;
+}*/
+
+/*Page Headers*/
+
 .rust{
-    color:#b77f61;
+    color:#3b3939;
+}
+
+.rust:hover{
+    color:#707070;
 }
 
 .grey{
     color:#707070;
 }
 
+.grey:hover{
+    color:#3b3939;
+}
+
 .page-headers{
     display:flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .name-header, .role-header{
@@ -51,4 +72,93 @@ html{
     margin: 7.5rem 4rem 0 0;
 }
 
+.contact-header:hover, .project-header:hover{
+    color:#3b3939;
+}
+
 /*Grid over Paper*/
+
+.projects-section-wrapper{
+    display:grid;
+    grid-template-columns: repeat(19,50px);
+    grid-template-rows: repeat(24,50px);
+    grid-gap:20px;
+    justify-content: center;
+}
+
+.project-header{
+    font-size:3.5rem;
+    font-weight:300;
+    color: #707070;
+}
+
+img{
+    border-radius:4%;
+    box-shadow: 40px 40px 12px rgba(0,0,0,0.3);
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.project-wrapper:hover{
+    z-index:60;
+}
+
+.project-2-1-img-wrapper{
+    grid-column:4/13;
+    grid-row:1/6;
+    z-index:50;
+}
+
+.project-2-2-img-wrapper{
+    grid-column:5/14;
+    grid-row:2/7;
+    z-index:40;
+}
+
+.project-2-3-img-wrapper{
+    grid-column:6/15;
+    grid-row:3/8;
+    z-index:30;
+}
+
+.project-header-2{
+    grid-column: 16/-1;
+    grid-row:5/7;
+}
+
+.project-1-1-img-wrapper{
+    grid-column:2/14;
+    grid-row:9/15;
+    z-index:50;
+}
+
+.project-1-2-img-wrapper{
+    grid-column:13/18;
+    grid-row:9/16;
+    z-index:40;
+}
+
+.project-1-3-img-wrapper{
+    grid-column:14/19;
+    grid-row:10/17;
+    z-index:30;
+}
+
+.project-1-4-img-wrapper{
+    grid-column:15/20;
+    grid-row:11/18;
+    z-index:20;
+}
+
+.project-header-1{
+    grid-column:2/11;
+    grid-row:15/17;
+}
+
+
+
+
+
+
+
