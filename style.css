@@ -45,11 +45,11 @@ html{
 }
 
 .grey{
-    color:#707070;
+    color:#3b3939;
 }
 
 .grey:hover{
-    color:#3b3939;
+    color:#707070;
 }
 
 .page-headers{
