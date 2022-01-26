@@ -269,7 +269,7 @@ img{
 
 /*Media Queries*/
 
-@media (max-width:1370px){
+@media (max-width:1200px){
     .whole-body-container{
         height:1900px;
     }
@@ -290,7 +290,7 @@ img{
 
     .projects-section-wrapper{
         display:grid;
-        grid-template-columns: repeat(37,20px);
+        grid-template-columns: repeat(38,20px);
         grid-template-rows: repeat(70,20px);
         justify-content: center;
     }
@@ -378,7 +378,7 @@ img{
 }
 
 
-@media (max-width:767px){
+@media (max-width:425px){
 
     .whole-body-container{
         height:1400px;
