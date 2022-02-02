@@ -68,7 +68,7 @@ html{
 }
 
 .name-header{
-    width:max-content;
+    /*width:max-content;*/
     font-weight:300;
 }
 
