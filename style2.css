@@ -43,7 +43,6 @@ html{
     font-size:6rem;
     letter-spacing: 2rem;
     color:#3b3939;
-    width:max-content;
 }
 
 .grey{
@@ -52,7 +51,7 @@ html{
     color:#3b3939;
 }
 
-.zero{
+.zero-1{
     letter-spacing: 0;
 }
 
@@ -450,7 +449,7 @@ img{
         letter-spacing: 1.5rem;
     }
 
-    .zero{
+    .zero-2{
         letter-spacing:0;
     }
 
@@ -524,6 +523,11 @@ img{
     .project-header-3{
         grid-column:2/13;
         grid-row:41/41;
+    }
+
+    .social{
+        width:34px;
+        height:34px;
     }
 
 }
