@@ -43,6 +43,7 @@ html{
     font-size:6rem;
     letter-spacing: 2rem;
     color:#3b3939;
+    width:max-content;
 }
 
 .grey{
