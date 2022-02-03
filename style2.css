@@ -40,13 +40,15 @@ html{
 /*Page Headers*/
 
 .rust{
-    font-size:6rem;
+    /*font-size:6rem;*/
+    font-size:5rem;
     letter-spacing: 2rem;
     color:#3b3939;
 }
 
 .grey{
-    font-size:5rem;
+    /*font-size:5rem;*/
+    font-size:4rem;
     letter-spacing:1.8rem;
     color:#3b3939;
 }
@@ -68,8 +70,9 @@ html{
 }
 
 .name-header{
-    /*width:max-content;*/
+    width:max-content;
     font-weight:300;
+    text-align:center;
 }
 
 .role-header{
@@ -77,8 +80,6 @@ html{
     font-size:3rem;
     font-weight:300;
     margin-top:2rem;
-    /*align-self:flex-start;
-    margin-left:2rem;*/
 }
 
 .contact-header{
@@ -287,6 +288,37 @@ img{
     grid-column:8/45;
     grid-row:86/86;
 }
+
+/*Section Small*/
+
+.small-projects-section-wrapper{
+    display:flex;
+    justify-content:center;
+}
+
+.small-image-wrapper{
+    width:38%;
+    height:350px;
+}
+
+.small-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:0;
+}
+
+.small-projects-header{
+    margin: 4rem 0 0 4rem;
+}
+
+.small-projects-header{
+    font-size:3.5rem;
+    color:#3b3939;
+}
+
+/*End of Section Small*/
+
 
 /*Footer*/
 
