@@ -1,0 +1,130 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Nanum Myeongjo', serif;
+    color:#3b3939
+}
+
+img{
+    /*border-radius:4%;*/
+    box-shadow: 40px 40px 12px rgba(0,0,0,0.3);
+}
+
+a{
+    outline:none;
+    text-decoration: none;
+    color:#3b3939;
+}
+
+a:hover{
+    color:#1191ec;
+}
+
+/*End of Common Styles*/
+
+/*Page Background*/
+
+.whole-body-container{
+    height:2380px;
+    background-image:url("../images/IMG_1034.jpeg");
+    background-size: cover;
+}
+
+/*Page Top*/
+
+.header-img-wrapper{
+    width:100%;
+    height:50vh;
+}
+
+.header-img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+
+.header-text{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    font-size:4rem;
+    font-weight:300;
+    width:28%;
+    margin-top:80px;
+}
+
+.opening-para{
+    font-size:2rem;
+    font-weight:300;
+    line-height:5.5rem;
+    width:28%;
+    margin-top:40px;
+    margin-bottom:80px;
+}
+
+/*Projects Section*/
+
+.mockup-header-wrapper{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:70px;
+}
+
+.mockup-wrapper, .drawing-wrapper{
+    width:46%;
+}
+
+.mockup, .vector-drawing{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.header-two{
+    font-size:2.4rem;
+    margin-top:10rem;
+}
+
+.drawing-wrapper{
+    margin-right:8rem;
+}
+
+.long{
+    width:20%;
+    line-height:3.4rem;
+}
+
+.vector-drawing{
+    border-radius: 0;
+}
+
+
+
+/*Footer*/
+
+.footer-wrapper{
+    text-align:center;
+}
+
+.social{
+    width:48px;
+    height:44px;
+    margin:100px 20px 24px 20px;
+}
+
+.copyright{
+    font-size:1.4rem;
+}
