@@ -207,7 +207,6 @@ a:hover{
 }
 
 
-
 @media (max-width:1023px){
     
     .mockup-header-wrapper{
@@ -216,7 +215,7 @@ a:hover{
     }
 
     .mockup-wrapper, .drawing-wrapper{
-        width:70%;
+        width:82%;
     }
 
     .header-two{
@@ -228,7 +227,13 @@ a:hover{
     }
 
     .whole-body-container{
-        height:2750px;
+        height:2950px;
+    }
+}
+
+@media (max-width:768px){
+    .whole-body-container{
+        height:2650px;
     }
 }
 
