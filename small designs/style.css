@@ -36,7 +36,7 @@ a:hover{
 /*Page Background*/
 
 .whole-body-container{
-    height:2400px;
+    height:2250px;
     background-image:url("../images/IMG_1034.jpeg");
     background-size: cover;
 }
@@ -77,14 +77,19 @@ a:hover{
 
 /*Projects Section*/
 
+.project-section{
+    padding-right:22rem;
+    padding-left:22rem;
+}
+
 .mockup-header-wrapper{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom:9rem;
 }
 
 .mockup-wrapper, .drawing-wrapper{
-    width:46%;
+    width:52%;
 }
 
 .mockup, .vector-drawing{
@@ -96,10 +101,6 @@ a:hover{
 .header-two{
     font-size:2.4rem;
     margin-top:10rem;
-}
-
-.drawing-wrapper{
-    margin-right:8rem;
 }
 
 .long{
@@ -120,6 +121,8 @@ a:hover{
 .site-home-nav{
     font-size:2.4rem;
     position:fixed;
+    line-height: 3.4rem;
+    letter-spacing: 0.2rem;
 }
 
 .site-home-nav:hover{
@@ -145,11 +148,122 @@ a:hover{
 }
 
 .social{
-    width:46px;
+    width:44px;
     height:44px;
     margin:40px 20px 24px 20px;
 }
 
+.social:hover{
+    width:46px;
+    height:46px;
+}
+
 .copyright{
     font-size:1.4rem;
+}
+
+@media(min-width:1441px){
+
+    .whole-body-container{
+        height: 2500px;
+    }
+
+}
+
+@media(min-width:1700px){
+
+    .whole-body-container{
+        height: 2700px;
+    }
+}
+
+@media(min-width:2000px){
+
+    .whole-body-container{
+        height: 3000px;
+    }
+}
+
+@media(min-width:2300px){
+
+    .whole-body-container{
+        height: 3300px;
+    }
+}
+
+
+@media (max-width:1300px){
+    .project-section{
+        padding:6rem;
+    }
+
+    .opening-para{
+        width:55%;
+    }
+
+    .whole-body-container{
+        height:2320px;
+    }
+}
+
+
+
+@media (max-width:1023px){
+    
+    .mockup-header-wrapper{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .mockup-wrapper, .drawing-wrapper{
+        width:70%;
+    }
+
+    .header-two{
+        margin-top:3rem;
+    }
+
+    .long{
+        width:60%;
+    }
+
+    .whole-body-container{
+        height:2600px;
+    }
+}
+
+@media (max-width:700px){
+
+    .header-img-wrapper{
+        height:30vh;
+    }
+
+    .header-text{
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .header{
+        width:auto;
+    }
+
+    .opening-para{
+        width:74%;
+    }
+
+    .project-section{
+        padding:2.5rem;
+    }
+
+    .mockup-wrapper,.drawing-wrapper{
+        width:85%;
+    }
+
+    .long{
+        width:75%;
+    }
+
+    .whole-body-container{
+        height:2400px;
+    }
 }

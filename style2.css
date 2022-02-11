@@ -332,6 +332,11 @@ img{
     margin:100px 20px 24px 20px;
 }
 
+.social:hover{
+    height:46px;
+    width:46px;
+}
+
 .copyright{
     font-size:1.4rem;
 }
