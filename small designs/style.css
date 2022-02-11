@@ -36,7 +36,7 @@ a:hover{
 /*Page Background*/
 
 .whole-body-container{
-    height:2250px;
+    height:2260px;
     background-image:url("../images/IMG_1034.jpeg");
     background-size: cover;
 }
@@ -45,7 +45,7 @@ a:hover{
 
 .header-img-wrapper{
     width:100%;
-    height:50vh;
+    height:60vh;
 }
 
 .header-img{
@@ -70,7 +70,7 @@ a:hover{
     font-size:2rem;
     font-weight:300;
     line-height:5.5rem;
-    width:28%;
+    width:35%;
     margin-top:40px;
     margin-bottom:80px;
 }
@@ -78,8 +78,8 @@ a:hover{
 /*Projects Section*/
 
 .project-section{
-    padding-right:22rem;
-    padding-left:22rem;
+    padding-right:20rem;
+    padding-left:20rem;
 }
 
 .mockup-header-wrapper{
@@ -89,7 +89,7 @@ a:hover{
 }
 
 .mockup-wrapper, .drawing-wrapper{
-    width:52%;
+    width:56%;
 }
 
 .mockup, .vector-drawing{
@@ -198,11 +198,11 @@ a:hover{
     }
 
     .opening-para{
-        width:55%;
+        width:45%;
     }
 
     .whole-body-container{
-        height:2320px;
+        height:2520px;
     }
 }
 
@@ -228,7 +228,7 @@ a:hover{
     }
 
     .whole-body-container{
-        height:2600px;
+        height:2750px;
     }
 }
 
