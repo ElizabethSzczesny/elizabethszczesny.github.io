@@ -1,0 +1,213 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+img{
+    /*border-radius:4%;*/
+    box-shadow: 40px 40px 12px rgba(0,0,0,0.3);
+}
+
+a{
+    outline:none;
+    text-decoration: none;
+    color:#3b3939;
+}
+
+a:hover{
+    color:#1191ec;
+}
+
+/*End of Common Styles*/
+
+/*Page Background*/
+
+.whole-body-container{
+    height:2440px;
+    background-image:url("../images/IMG_1034.jpeg");
+    background-size: cover;
+}
+
+.whole-body-container{
+    position: relative;
+}
+
+.site-home-nav{
+    font-size:2.4rem;
+    position:fixed;
+    line-height: 3.4rem;
+    letter-spacing: 0.2rem;
+}
+
+.site-home-nav:hover{
+    color:#1191ec;
+}
+
+/*Page Top*/
+
+.header-img-wrapper{
+    width:60%;
+    height:65vh;
+    margin:auto;
+}
+
+.header-img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+    box-shadow: none;
+}
+
+.header-text{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    font-size:2.3rem;
+    font-weight:300;
+    margin-top:86px;
+    width:35%;
+    text-align:center;
+    line-height:3.7rem;
+}
+
+.opening-para{
+    font-size:1.7rem;
+    font-weight:300;
+    line-height:5rem;
+    margin-top:80px;
+    margin-bottom:80px;
+    width:35%;
+}
+
+/*Research Section*/
+
+.research-project-section{
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+    padding-right:17rem;
+    padding-left:17rem;
+}
+
+.header-two{
+    font-size:2.3rem;
+    font-weight: 300;
+    text-align:left;
+}
+
+.section-one{
+    display:flex;
+    justify-content: space-between;
+}
+
+.section-one-figure{
+    width:30%;
+    line-height: 2.7rem;
+    font-size:1.5rem;
+}
+
+.research-quote{
+    padding:20px 0 20px 45px;
+}
+
+.section-one-para{
+    width:55%;
+}
+
+.audit-para{
+    margin:40px 0 40px 0;
+}
+
+.audit-img{
+    width:90%;
+    height:auto;
+    object-fit:cover;
+    box-shadow:none;
+    display:block;
+    margin: 0 auto 20px auto;
+}
+
+.design-area-para{
+    margin: 0 auto 20px auto;
+}
+
+.id-areas-of-design{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.area-para{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height:3rem;
+    width:70%;
+    margin:auto;
+}
+
+/*Design Section*/
+
+.design-project-section{
+        height:2400px;
+        background-image:url("../images/IMG_1034.jpeg");
+        background-size: cover;
+}
+
+.design-project-section{
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+    padding-right:17rem;
+    padding-left:17rem;
+}
+
+.header-two{
+    padding-top:5rem;
+    padding-bottom: 3rem;
+}
+
+.open-design-para{
+    margin-bottom:40px;
+}
+
+.img-section-wrapper{
+    display:flex;
+    justify-content:space-between;
+}
+
+.img-wrapper{
+    width:40%;
+    margin:1.5rem;
+}
+
+.img-one,.img-two,.img-three{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.three{
+    width:50%;
+}
+
+.img-one{
+    height:80%;
+}
+
+.small{
+    line-height: 2.7rem;
+    font-size:1.5rem;
+}
