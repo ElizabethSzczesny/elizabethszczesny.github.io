@@ -21,10 +21,12 @@ html{
 /*Page Background*/
 
 .whole-body-container{
-    /*height:2200px;*/
+    height:2200px;
     height:2600px;
     background-image:url("images/IMG_1034.jpeg");
     background-size: cover;
+    /*background-color:#FDFBF4;
+    /*background-color: #FCFAF2;*/
 }
 
 /*.homescreen-img-wrapper{

@@ -35,7 +35,7 @@ a:hover{
 
 .whole-body-container{
     height:auto;
-    background-image:url("../images/IMG_1034.jpeg");
+    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
     background-size: cover;
 }
 
@@ -66,7 +66,6 @@ a:hover{
     object-fit:cover;
     height:100%;
     width:100%;
-    box-shadow: none;
 }
 
 .header-text{
@@ -135,7 +134,6 @@ a:hover{
     width:90%;
     height:auto;
     object-fit:cover;
-    box-shadow:none;
     display:block;
     margin: 0 auto 20px auto;
 }
@@ -151,18 +149,22 @@ a:hover{
     padding-bottom: 40px;
 }
 
-.area-para{
+.area-one-wrapper-one,.area-two-wrapper,.area-three-wrapper{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     line-height:3rem;
-    width:75%;
-    margin:auto;
+    width:60%;
+    margin:0 2rem 0 2rem;
+}
+
+.header-three{
+    font-family:'Nanum Myeongjo',serif;
 }
 
 /*Design Section*/
 
 .design-project-section{
         height:auto;
-        background-image:url("../images/IMG_1034.jpeg");
+        background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
         background-size: cover;
 }
 
@@ -215,7 +217,7 @@ a:hover{
 
 .design-areas-project-section{
     height:auto;
-    background-image:url("../images/IMG_1034.jpeg");
+    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
     background-size: cover;
     padding-left: 17rem;
     padding-right:17rem;
@@ -253,7 +255,7 @@ a:hover{
 
 .styles-section{
     height:auto;
-    background-image:url("../images/IMG_1034.jpeg");
+    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
     background-size: cover;
     padding-left: 17rem;
     padding-right:17rem;
