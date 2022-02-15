@@ -34,7 +34,7 @@ a:hover{
 /*Page Background*/
 
 .whole-body-container{
-    height:2440px;
+    height:auto;
     background-image:url("../images/IMG_1034.jpeg");
     background-size: cover;
 }
@@ -141,28 +141,28 @@ a:hover{
     margin: 0 auto 20px auto;
 }
 
-.design-area-para{
+/*.design-area-para{
     margin: 0 auto 20px auto;
-}
+}*/
 
 .id-areas-of-design{
     display:flex;
     justify-content: space-evenly;
     text-align: center;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .area-para{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     line-height:3rem;
-    width:70%;
+    width:75%;
     margin:auto;
 }
 
 /*Design Section*/
 
 .design-project-section{
-        height:2400px;
+        height:auto;
         background-image:url("../images/IMG_1034.jpeg");
         background-size: cover;
 }
@@ -203,6 +203,7 @@ a:hover{
 .small{
     line-height: 2.7rem;
     font-size:1.5rem;
+    margin-top:20px;
     margin-bottom: 30px;
 }
 
@@ -214,7 +215,7 @@ a:hover{
 /*Design Areas*/
 
 .design-areas-project-section{
-    height:2800px;
+    height:auto;
     background-image:url("../images/IMG_1034.jpeg");
     background-size: cover;
     padding-left: 17rem;
@@ -250,4 +251,98 @@ a:hover{
     margin-bottom:40px;
 }
 
+/*Style Section*/
 
+.styles-section{
+    height:auto;
+    background-image:url("../images/IMG_1034.jpeg");
+    background-size: cover;
+    padding-left: 17rem;
+    padding-right:17rem;
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+}
+
+.img-style{
+    object-fit:cover;
+}
+
+.style-one{
+    width:70%;
+    display:block;
+    margin:auto;
+}
+
+.style-two{
+    width:70%;
+    display:block;
+    margin:auto;
+}
+
+.final-para{
+    margin-bottom: 50px;
+}
+
+.research-quote-two{
+    width:30%;
+    line-height: 2.7rem;
+    font-size:1.5rem;
+    margin:auto;
+}
+
+.final-img-wrapper{
+    width:100%;
+    margin-top: 40px;
+}
+
+.final-img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+/*Footer*/
+
+.nav-wrapper{
+    text-align:center;
+}
+
+.nav-link{
+    font-size:2.1rem;
+}
+
+.two{
+    margin-left:2rem;
+}
+
+.footer-wrapper{
+    text-align:center;
+}
+
+.social{
+    width:44px;
+    height:44px;
+    margin:40px 20px 24px 20px;
+}
+
+.social:hover{
+    width:46px;
+    height:46px;
+}
+
+.copyright{
+    font-size:1.4rem;
+}
+
+@media(max-width:1150px){
+    .research-project-section,.design-project-section,
+    .design-areas-project-section, .styles-section{
+        padding-right:1.2rem;
+        padding-left:1.2rem;
+    }
+
+    .opening-para{
+        width:60%;
+    }
+}
