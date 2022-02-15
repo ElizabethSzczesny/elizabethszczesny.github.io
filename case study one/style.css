@@ -87,7 +87,7 @@ a:hover{
     font-weight:300;
     line-height:5rem;
     margin-top:80px;
-    width:35%;
+    width:40%;
 }
 
 /*Research Section*/
@@ -154,10 +154,12 @@ a:hover{
     line-height:3rem;
     width:60%;
     margin:0 2rem 0 2rem;
+    text-align:left;
 }
 
 .header-three{
     font-family:'Nanum Myeongjo',serif;
+    margin-bottom:2rem;
 }
 
 /*Design Section*/
@@ -233,6 +235,13 @@ a:hover{
 
 .header-three{
     text-align: center;
+}
+
+.area-para{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height:3rem;
+    width:70%;
+    margin:0 auto 4rem auto;
 }
 
 .area-one-wrapper{
