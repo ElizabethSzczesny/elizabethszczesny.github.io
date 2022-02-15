@@ -273,6 +273,11 @@ a:hover{
         width:75%;
     }
 
+    .header-two, .nav-link{
+        font-size: 1.2rem;
+        line-height:2rem;
+    }
+
     /*.whole-body-container{
         height:2400px;
     }*/
