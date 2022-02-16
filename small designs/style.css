@@ -61,7 +61,7 @@ a:hover{
 }
 
 .header{
-    font-size:2.6rem;
+    font-size:2.4rem;
     font-weight:300;
     width:18%;
     margin-top:90px;
@@ -86,7 +86,7 @@ a:hover{
 .mockup-header-wrapper{
     display:flex;
     justify-content: space-between;
-    margin-bottom:9rem;
+    margin-bottom:4rem;
 }
 
 .mockup-wrapper, .drawing-wrapper{

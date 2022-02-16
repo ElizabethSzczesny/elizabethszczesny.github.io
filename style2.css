@@ -489,17 +489,23 @@ img{
         letter-spacing: 1.5rem;
     }
 
+    img{
+        border-radius:0;
+    }
+
     .zero-2{
         letter-spacing:0;
     }
 
     .rust{
-        font-size:2.4rem;
+        font-size:2.6rem;
+        letter-spacing:0.2rem;
     }
 
     .grey{
-        font-size:2rem;
-        line-height:3rem;
+        font-size:2.4rem;
+        letter-spacing:0.2rem;
+        line-height:3.4rem;
     }
 
     .role-header{
@@ -520,13 +526,13 @@ img{
     .projects-section-wrapper{
         display:grid;
         grid-template-columns: repeat(16,20px);
-        grid-template-rows: repeat(50,20px);
+        grid-template-rows: repeat(47,20px);
         justify-content: center;
     }
 
     .project-2-1-img-wrapper{
         grid-column:1/17;
-        grid-row:4/13;
+        grid-row:5/14;
     }
 
     .project-2-2-img-wrapper, .project-2-3-img-wrapper{
@@ -535,7 +541,7 @@ img{
 
     .project-header-2{
         grid-column:2/15;
-        grid-row:14/14;
+        grid-row:15/15;
     }
 
     .project-1-1-img-wrapper{
@@ -562,7 +568,7 @@ img{
     }
 
     .project-header-3{
-        grid-column:2/13;
+        grid-column:2/12;
         grid-row:42/42;
     }
 
