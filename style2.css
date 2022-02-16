@@ -370,25 +370,30 @@ img{
     }
 
     .rust{
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
     .grey{
-        font-size:4rem;
+        font-size:3rem;
     }
 
     .role-header{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .contact-header{
-        font-size:1.5rem;
+        font-size:2rem;
         margin-top:2rem;
     }
 
     .project-header{
-        font-size:1.4rem;
+        font-size:2rem;
         line-height: 2.5rem;
+    }
+
+    .small-projects-header{
+        font-size:4rem;
+        line-height:4rem;
     }
 
     .projects-section-wrapper{
@@ -481,7 +486,7 @@ img{
 
     .small-image-wrapper{
         width:54%;
-        height:240px;
+        height:380px;
     }
 }
 
@@ -523,17 +528,17 @@ img{
     }
 
     .role-header{
-        font-size:1.3rem;
+        font-size:1.6rem;
         margin-top:0.6rem;
     }
 
     .contact-header{
-        font-size:1.2rem;
+        font-size:1.6rem;
         margin-top:4rem;
     }
 
     .project-header{
-        font-size:1.2rem;
+        font-size:1.6rem;
         line-height:2rem;
     }
 

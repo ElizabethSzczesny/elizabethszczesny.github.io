@@ -134,11 +134,26 @@ a:hover{
 }
 
 .nav-wrapper{
-    text-align:center;
+    margin-left: 17rem;
 }
 
 .nav-link{
-    font-size:2.1rem;
+    color:#dadad8;
+    font-size:3.2rem;
+    line-height:5rem;
+}
+
+.nav-two{
+    margin-left:4rem;
+}
+
+.nav-four{
+    margin-left:-4rem;
+}
+
+.nav-five{
+    color:#1191ec;
+    margin-left:2rem;
 }
 
 /*Footer*/
@@ -159,7 +174,7 @@ a:hover{
 }
 
 .copyright{
-    font-size:1.4rem;
+    font-size:1.2rem;
 }
 
 /*@media(min-width:1441px){
@@ -238,7 +253,7 @@ a:hover{
     }
 
     .header-two{
-        font-size:1.4rem;
+        font-size:2rem;
         margin-top:3rem;
     }
 
@@ -247,7 +262,7 @@ a:hover{
     }
 
     .nav-link{
-        font-size:1.4rem;
+        font-size:1.6rem;
     }
 }
 
@@ -293,7 +308,7 @@ a:hover{
     }
 
     .header-two, .nav-link{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         line-height:2rem;
     }
 }

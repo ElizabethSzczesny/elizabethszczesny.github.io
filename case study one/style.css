@@ -166,9 +166,6 @@ a:hover{
 /*Design Section*/
 
 .design-project-section{
-        /*height:auto;
-        background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
-        background-size: cover;*/
         background-color: #FCFAF2;
 }
 
@@ -319,12 +316,22 @@ a:hover{
 
 /*Footer*/
 
-.nav-wrapper{
-    text-align:center;
+.nav-link{
+    color:#dadad8;
+    font-size:3.2rem;
 }
 
-.nav-link{
-    font-size:2.1rem;
+.nav-two{
+    color:#1191ec;
+    margin-left:4rem;
+}
+
+.nav-four{
+    margin-left:-4rem;
+}
+
+.nav-five{
+    margin-left:2rem;
 }
 
 .footer-wrapper{
@@ -343,8 +350,10 @@ a:hover{
 }
 
 .copyright{
-    font-size:1.4rem;
+    font-size:1.2rem;
 }
+
+
 
 @media(max-width:1150px){
     .header-img-wrapper{
