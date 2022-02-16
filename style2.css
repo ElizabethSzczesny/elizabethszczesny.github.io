@@ -357,6 +357,17 @@ img{
         height:auto;
     }
 
+    .header-img-wrapper{
+        width:98%;
+        height:20vh;
+    }
+
+    .name-header{
+        width:500px;
+        text-align:center;
+        letter-spacing: 1.5rem;
+    }
+
     .rust{
         font-size: 4rem;
     }
@@ -434,7 +445,7 @@ img{
     }
     
     .project-header-1{
-        grid-column:2/23;
+        grid-column:2/22;
         grid-row:38/38;
     }
     
@@ -466,25 +477,23 @@ img{
         grid-column:2/35;
         grid-row:60/60;
     }
+
+    .small-image-wrapper{
+        width:54%;
+        height:240px;
+    }
 }
-
-/*@media (max-width:850px){
-    
-    .rust{
-        font-size:3.5rem;
-    }
-
-    .grey{
-        font-size:2.5rem;
-    }
-
-*/
 
 
 @media (max-width:718px){
 
     .whole-body-container{
         height:auto;
+    }
+
+    .header-img-wrapper{
+        width:100%;
+        height:20vh;
     }
 
     .name-header{

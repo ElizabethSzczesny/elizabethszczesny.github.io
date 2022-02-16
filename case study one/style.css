@@ -253,7 +253,7 @@ a:hover{
     width:46%;
 }
 
-.img-wrapper-three{
+.img-wrapper-three,.img-wrapper-five{
     width:42%;
     margin-bottom:40px;
 }
@@ -351,26 +351,73 @@ a:hover{
 }
 
 @media(max-width:1150px){
+    .header-img-wrapper{
+        width:98%;
+        height:50vh;
+        margin:auto;
+    }
+
     .research-project-section,.design-project-section,
     .design-areas-project-section, .styles-section{
         padding-right:1.2rem;
         padding-left:1.2rem;
     }
 
-    .opening-para{
-        width:60%;
+}
+
+@media(max-width:1140px){
+
+    
+    .header-text,.section-one, .id-areas-of-design, .id-areas-of-design-one{
+        flex-direction: column;
+        margin:auto;
     }
+
+    .header,.opening-para,.section-one-para,.section-one-figure,.design-project-section,
+    .area-one-wrapper-one, .audit-img, .design-area-para,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.responsive-tablet,.research-quote-two,.final-img-wrapper{
+        width:80%;
+        margin:auto;
+    }
+
+    .header{
+        margin-top:86px;
+        margin-bottom:70px;
+    }
+
+    .img-wrapper-three,.img-wrapper-four{
+        width:60%;
+        margin:auto;
+    }
+
+    .img-wrapper-five{
+        width:50%;
+        margin:auto;
+    }
+
+    .img-wrapper-three,.img-wrapper-four,.img-wrapper-five,.final-img-wrapper{
+        margin-top:3rem;
+    }
+
+    .nav-link{
+        font-size: 1.6rem;
+    }
+
+    .section-one-para{
+        margin-top: 5rem;
+    }
+
+    .img-style{
+        width:90%;
+        margin:auto;
+    }
+
 }
 
 @media(max-width:767px){
     .header-img-wrapper{
         width:100%;
         height:auto;
-    }
-
-    .header-text,.section-one, .id-areas-of-design, .id-areas-of-design-one{
-        flex-direction: column;
-        margin:auto;
     }
 
     .header,.opening-para,.section-one-para,.section-one-figure,.area-one-wrapper-one,
@@ -380,17 +427,17 @@ a:hover{
         margin:auto;
     }
 
-    .header{
-        margin-top:86px;
-        margin-bottom:86px;
+    .img-wrapper-three,.img-wrapper-four,.img-style{
+        width:50%;
+        margin:auto;
     }
 
-    .img-wrapper-three,.img-wrapper-four,.final-img-wrapper{
-        margin-top:3rem;
+    .header{
+        margin-top:86px;
+        margin-bottom:70px;
     }
 
     .nav-link{
-        font-size: 1.2rem;
+        font-size:1.2rem;
     }
-
 }
