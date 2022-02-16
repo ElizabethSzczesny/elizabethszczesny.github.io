@@ -17,7 +17,7 @@ html{
 }
 
 img{
-    /*border-radius:4%;*/
+    border-radius:2%;
     box-shadow: 40px 40px 12px rgba(0,0,0,0.3);
 }
 
@@ -36,23 +36,25 @@ a:hover{
 /*Page Background*/
 
 .whole-body-container{
-    /*height:2260px;*/
-    height:auto;
+    /*height:auto;
     background-image:url("../images/IMG_1034.jpeg");
-    background-size: cover;
+    background-size: cover;*/
+    background-color:#FCFAF2;
 }
 
 /*Page Top*/
 
 .header-img-wrapper{
-    width:100%;
+    width:70%;
     height:60vh;
+    margin:auto;
 }
 
 .header-img{
     object-fit:cover;
     height:100%;
     width:100%;
+    border-radius:0;
 }
 
 .header-text{

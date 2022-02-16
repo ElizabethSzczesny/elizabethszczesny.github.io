@@ -34,9 +34,10 @@ a:hover{
 /*Page Background*/
 
 .whole-body-container{
-    height:auto;
-    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
-    background-size: cover;
+    /*height:auto;
+    background-image:url("../images/");
+    background-size: cover;*/
+    background-color: #FCFAF2;
 }
 
 .whole-body-container{
@@ -165,9 +166,10 @@ a:hover{
 /*Design Section*/
 
 .design-project-section{
-        height:auto;
+        /*height:auto;
         background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
-        background-size: cover;
+        background-size: cover;*/
+        background-color: #FCFAF2;
 }
 
 .design-project-section{
@@ -218,9 +220,10 @@ a:hover{
 /*Design Areas*/
 
 .design-areas-project-section{
-    height:auto;
+    /*height:auto;
     background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #FCFAF2;
     padding-left: 17rem;
     padding-right:17rem;
     font-size:1.7rem;
@@ -242,6 +245,8 @@ a:hover{
     line-height:3rem;
     width:70%;
     margin:0 auto 4rem auto;
+    padding:3rem;
+    border: 1px solid #3b3939
 }
 
 .area-one-wrapper{
@@ -263,9 +268,10 @@ a:hover{
 /*Style Section*/
 
 .styles-section{
-    height:auto;
-    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
-    background-size: cover;
+    /*height:auto;
+    background-image:url("../images/IMG_1123\ \(1\).jpeg");
+    background-size: cover;*/
+    background-color:#FCFAF2;
     padding-left: 17rem;
     padding-right:17rem;
     font-size:1.7rem;
