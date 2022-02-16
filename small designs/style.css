@@ -63,7 +63,8 @@ a:hover{
 }
 
 .header{
-    font-size:2.4rem;
+    /*font-size:3rem;*/
+    font-size:7rem;
     font-weight:300;
     width:18%;
     margin-top:90px;
@@ -102,7 +103,7 @@ a:hover{
 }
 
 .header-two{
-    font-size:2.1rem;
+    font-size:2.4rem;
     margin-top:10rem;
 }
 
@@ -220,6 +221,15 @@ a:hover{
         width:98%;
         height:40vh;
         margin:auto;
+    }
+
+    .header-text{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        width:20%;
     }
     
     .mockup-header-wrapper{

@@ -47,7 +47,7 @@ html{
 
 .rust{
     /*font-size:6rem;*/
-    font-size:5rem;
+    font-size:6rem;
     letter-spacing: 2rem;
     color:#3b3939;
 }
@@ -319,6 +319,7 @@ img{
 
 .small-projects-header{
     margin: 4rem 0 0 4rem;
+    font-size:5rem;
 }
 
 
@@ -369,11 +370,11 @@ img{
     }
 
     .rust{
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     .grey{
-        font-size:3rem;
+        font-size:4rem;
     }
 
     .role-header{
