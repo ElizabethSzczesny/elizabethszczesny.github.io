@@ -257,6 +257,14 @@ a:hover{
         width:auto;
     }
 
+    .header-two{
+        margin-top:2rem;
+    }
+
+    .mockup-header-wrapper{
+        margin-bottom:3.8rem;
+    }
+
     .opening-para{
         width:74%;
     }
