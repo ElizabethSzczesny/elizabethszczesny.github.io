@@ -302,7 +302,7 @@ img{
 
 .small-projects-section-wrapper{
     display:flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .small-image-wrapper{
@@ -484,10 +484,6 @@ img{
         grid-row:60/60;
     }
 
-    .small-image-wrapper{
-        width:54%;
-        height:380px;
-    }
 }
 
 

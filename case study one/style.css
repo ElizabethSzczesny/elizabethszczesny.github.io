@@ -368,6 +368,11 @@ a:hover{
         padding-left:1.2rem;
     }
 
+    .nav-wrapper{
+        margin-top:8rem;
+        margin-left:10rem;
+    }
+
 }
 
 @media(max-width:1140px){
@@ -404,10 +409,6 @@ a:hover{
         margin-top:3rem;
     }
 
-    .nav-link{
-        font-size: 1.6rem;
-    }
-
     .section-one-para{
         margin-top: 5rem;
     }
@@ -418,6 +419,13 @@ a:hover{
     }
 
 }
+
+@media(max-width:1023px){
+    .nav-link{
+        font-size: 2.8rem;
+    }
+}
+
 
 @media(max-width:767px){
     .header-img-wrapper{
@@ -443,6 +451,11 @@ a:hover{
     }
 
     .nav-link{
-        font-size:1.2rem;
+        font-size:2rem;
+    }
+
+    .nav-wrapper{
+        margin-top:8rem;
+        margin-left:10rem;
     }
 }

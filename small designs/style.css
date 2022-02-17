@@ -140,7 +140,7 @@ a:hover{
 .nav-link{
     color:#dadad8;
     font-size:3.2rem;
-    line-height:5rem;
+    line-height:5.6rem;
 }
 
 .nav-two{
@@ -262,7 +262,11 @@ a:hover{
     }
 
     .nav-link{
-        font-size:1.6rem;
+        font-size:2.8rem;
+    }
+
+    .nav-wrapper{
+        margin-left:10rem;
     }
 }
 
@@ -307,8 +311,17 @@ a:hover{
         width:75%;
     }
 
-    .header-two, .nav-link{
-        font-size: 1.6rem;
-        line-height:2rem;
+    .header-two{
+        font-size:1.6rem;
+        line-height:2.4rem;
+    }
+
+    .nav-link{
+        font-size: 2rem;
+        line-height:5rem;
+    }
+
+    .nav-wrapper{
+        margin-left:10rem;
     }
 }
