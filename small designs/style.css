@@ -92,9 +92,17 @@ a:hover{
     margin-bottom:7rem;
 }
 
-.mockup-wrapper, .drawing-wrapper{
+.mockup-wrapper{
     width:60%;
 }
+
+/*.drawing-wrapper{
+    width:80%;
+}
+
+.vector-drawing{
+    box-shadow:none;
+}*/
 
 .mockup, .vector-drawing{
     width:100%;
