@@ -254,14 +254,14 @@ a:hover{
 }
 
 .img-wrapper-three,.img-wrapper-five{
-    width:42%;
+    width:45%;
     margin-bottom:40px;
 }
 
 .img-wrapper-four{
     display:flex;
     flex-direction:column;
-    width:42%;
+    width:45%;
     margin-bottom:40px;
 }
 
@@ -459,6 +459,6 @@ a:hover{
 
     .nav-wrapper{
         margin-top:8rem;
-        margin-left:10rem;
+        margin-left:8rem;
     }
 }
