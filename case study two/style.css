@@ -1,0 +1,444 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+img{
+    /*border-radius:4%;*/
+    box-shadow: 40px 40px 12px rgba(0,0,0,0.3);
+}
+
+a{
+    outline:none;
+    text-decoration: none;
+    color:#3b3939;
+}
+
+a:hover{
+    color:#1191ec;
+}
+
+/*End of Common Styles*/
+
+/*Page Background*/
+
+.whole-body-container{
+    /*height:auto;
+    background-image:url("../images/");
+    background-size: cover;*/
+    background-color: #FCFAF2;
+    border: 1px solid #3b3939;
+    margin:15px;
+}
+
+.whole-body-container{
+    position: relative;
+}
+
+.site-home-nav{
+    font-size:2.4rem;
+    position:fixed;
+    line-height: 3.4rem;
+    letter-spacing: 0.2rem;
+    padding-left: 5px;
+}
+
+.site-home-nav:hover{
+    color:#1191ec;
+}
+
+/*Page Top*/
+
+.header-img-wrapper{
+    width:60%;
+    height:65vh;
+    margin:auto;
+}
+
+.header-img{
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+
+.header-text{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    font-size:2.4rem;
+    font-weight:300;
+    margin-top:86px;
+    width:35%;
+    text-align:center;
+    line-height:3.7rem;
+}
+
+.opening-para{
+    font-size:1.7rem;
+    font-weight:300;
+    line-height:5rem;
+    margin-top:80px;
+    width:40%;
+}
+
+/*Research Section*/
+
+.research-project-section{
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+    padding-right:17rem;
+    padding-left:17rem;
+}
+
+.header-two{
+    font-size:2.3rem;
+    font-weight: 300;
+    text-align:left;
+}
+
+.research-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+.section-one-figure{
+    width:55%;
+    line-height: 2.7rem;
+    font-size:1.5rem;
+    margin-bottom:40px;
+}
+
+.research-quote{
+    padding:20px 0 20px 45px;
+}
+
+.section-one-para{
+    text-align: left;
+    margin-bottom:40px;
+}
+
+.id-areas-of-design{
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.area-one-wrapper-one,.area-two-wrapper,.area-three-wrapper{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height:3rem;
+    width:60%;
+    margin:0 2rem 0 2rem;
+    text-align:left;
+}
+
+.header-three{
+    font-family:'Nanum Myeongjo',serif;
+    margin-bottom:2rem;
+}
+
+/*Design Section*/
+
+.design-project-section{
+        background-color: #FCFAF2;
+}
+
+.design-project-section{
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+    padding-right:17rem;
+    padding-left:17rem;
+}
+
+.header-two{
+    padding-top:5rem;
+    padding-bottom: 3rem;
+}
+
+.open-design-para{
+    margin-bottom:40px;
+}
+
+.img-wrapper{
+    width:90%;
+    margin:1.5rem auto 0 auto;
+}
+
+.img-one{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+.small{
+    line-height: 2.7rem;
+    font-size:1.5rem;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+
+.img-wrapper-two{
+    width:50%;
+    margin:1.5rem;
+}
+
+/*Design Areas*/
+
+.design-areas-project-section{
+    /*height:auto;
+    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
+    background-size: cover;*/
+    background-color: #FCFAF2;
+    padding-left: 17rem;
+    padding-right:17rem;
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+}
+
+.id-areas-of-design-one{
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-three{
+    text-align: center;
+}
+
+.area-para{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height:3rem;
+    width:76%;
+    margin:0 auto 4rem auto;
+    padding:3rem;
+    border: 1px solid #3b3939
+}
+
+.area-one-wrapper{
+    width:46%;
+}
+
+.img-wrapper-three,.img-wrapper-five{
+    width:45%;
+    margin-bottom:40px;
+}
+
+.img-wrapper-four{
+    display:flex;
+    flex-direction:column;
+    width:45%;
+    margin-bottom:40px;
+}
+
+/*Style Section*/
+
+.styles-section{
+    /*height:auto;
+    background-image:url("../images/IMG_1123\ \(1\).jpeg");
+    background-size: cover;*/
+    background-color:#FCFAF2;
+    padding-left: 17rem;
+    padding-right:17rem;
+    font-size:1.7rem;
+    font-weight:300rem;
+    line-height:5rem;
+}
+
+.img-style{
+    object-fit:cover;
+}
+
+.style-one{
+    width:70%;
+    display:block;
+    margin:auto;
+}
+
+.style-two{
+    width:70%;
+    display:block;
+    margin:auto;
+}
+
+.final-para{
+    margin-bottom: 50px;
+}
+
+.research-quote-two{
+    width:30%;
+    line-height: 2.7rem;
+    font-size:1.5rem;
+    margin:auto;
+}
+
+.final-img-wrapper{
+    width:80%;
+    margin: 40px auto 60px auto;
+}
+
+.final-img{
+    width:100%;
+    height:auto;
+    object-fit: cover;
+}
+
+/*Footer*/
+
+.nav-link{
+    color:#dadad8;
+    font-size:3.2rem;
+}
+
+.nav-two{
+    color:#1191ec;
+    margin-left:4rem;
+}
+
+.nav-four{
+    margin-left:-4rem;
+}
+
+.nav-five{
+    margin-left:2rem;
+}
+
+.footer-wrapper{
+    text-align:center;
+}
+
+.social{
+    width:44px;
+    height:44px;
+    margin:40px 20px 0 20px;
+}
+
+.social:hover{
+    width:46px;
+    height:46px;
+}
+
+.copyright{
+    font-size:1.2rem;
+}
+
+
+
+@media(max-width:1150px){
+    .header-img-wrapper{
+        width:100%;
+        height:50vh;
+        margin:auto;
+    }
+
+    .research-project-section,.design-project-section,
+    .design-areas-project-section, .styles-section{
+        padding-right:1.2rem;
+        padding-left:1.2rem;
+    }
+
+    .nav-wrapper{
+        margin-top:8rem;
+        margin-left:10rem;
+    }
+
+}
+
+@media(max-width:1140px){
+
+    
+    .header-text,.section-one, .id-areas-of-design, .id-areas-of-design-one{
+        flex-direction: column;
+        margin:auto;
+    }
+
+    .header,.opening-para,.section-one-para,.section-one-figure,.design-project-section,
+    .area-one-wrapper-one, .audit-img, .design-area-para,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.responsive-tablet,.research-quote-two,.final-img-wrapper{
+        width:80%;
+        margin:auto;
+    }
+
+    .header{
+        margin-top:86px;
+        margin-bottom:70px;
+    }
+
+    .img-wrapper-three,.img-wrapper-four{
+        width:60%;
+        margin:auto;
+    }
+
+    .img-wrapper-five{
+        width:50%;
+        margin:auto;
+    }
+
+    .img-wrapper-three,.img-wrapper-four,.img-wrapper-five,.final-img-wrapper{
+        margin-top:3rem;
+    }
+
+    .section-one-para{
+        margin-top: 5rem;
+    }
+
+    .img-style{
+        width:90%;
+        margin:auto;
+    }
+
+}
+
+@media(max-width:1023px){
+    .nav-link{
+        font-size: 2.8rem;
+    }
+}
+
+
+@media(max-width:767px){
+    .header-img-wrapper{
+        width:100%;
+        height:auto;
+    }
+
+    .header,.opening-para,.section-one-para,.section-one-figure,.area-one-wrapper-one,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.img-wrapper-three,
+    .img-wrapper-four,.img-style,.research-quote-two,.final-img-wrapper{
+        width:90%;
+        margin:auto;
+    }
+
+    .img-wrapper-three,.img-wrapper-four,.img-style{
+        width:50%;
+        margin:auto;
+    }
+
+    .header{
+        margin-top:86px;
+        margin-bottom:70px;
+    }
+
+    .nav-link{
+        font-size:2rem;
+    }
+
+    .nav-wrapper{
+        margin-top:8rem;
+        margin-left:8rem;
+    }
+}
