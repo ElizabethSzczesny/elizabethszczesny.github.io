@@ -27,6 +27,8 @@ html{
     background-size: cover;*/
     /*background-color:#FDFBF4;*/
     background-color: #FCFAF2;
+    border: 1px solid #3b3939;
+    margin:15px;
 }
 
 .header-img-wrapper{
@@ -345,7 +347,7 @@ img{
 }
 
 .copyright{
-    font-size:1.4rem;
+    font-size:1.2rem;
 }
 
 /*Footer*/
@@ -359,7 +361,7 @@ img{
     }
 
     .header-img-wrapper{
-        width:98%;
+        width:100%;
         height:20vh;
     }
 
