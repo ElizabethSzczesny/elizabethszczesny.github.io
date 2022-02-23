@@ -156,7 +156,7 @@ a:hover{
 .area-one-wrapper-one,.area-two-wrapper,.area-three-wrapper{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     line-height:3rem;
-    width:60%;
+    width:70%;
     margin:0 2rem 0 2rem;
     text-align:left;
 }
@@ -247,6 +247,10 @@ a:hover{
     margin:0 auto 4rem auto;
     padding:3rem;
     border: 1px solid #3b3939
+}
+
+.area-para-top{
+    width:90%;
 }
 
 .area-one-wrapper{
