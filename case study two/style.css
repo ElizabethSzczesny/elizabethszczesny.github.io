@@ -110,13 +110,13 @@ a:hover{
     text-align:left;
 }
 
-.research-wrapper{
+.section-one{
     display:flex;
     justify-content: space-between;
 }
 
 .section-one-figure{
-    width:55%;
+    width:40%;
     line-height: 2.7rem;
     font-size:1.5rem;
     margin-bottom:40px;
@@ -127,8 +127,7 @@ a:hover{
 }
 
 .section-one-para{
-    text-align: left;
-    margin-bottom:40px;
+    width:48%;
 }
 
 .id-areas-of-design{
@@ -146,9 +145,19 @@ a:hover{
     text-align:left;
 }
 
+.area-para{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    line-height:3rem;
+    width:76%;
+    margin:0 auto 4rem auto;
+    padding:3rem;
+    border: 1px solid #3b3939
+}
+
 .header-three{
     font-family:'Nanum Myeongjo',serif;
     margin-bottom:2rem;
+    text-align:center;
 }
 
 /*Design Section*/
@@ -192,58 +201,48 @@ a:hover{
     margin-bottom: 30px;
 }
 
-.img-wrapper-two{
-    width:50%;
-    margin:1.5rem;
-}
-
 /*Design Areas*/
 
 .design-areas-project-section{
-    /*height:auto;
-    background-image:url("../images/laura-adai-MpKiQTIJTP8-unsplash.jpeg");
-    background-size: cover;*/
     background-color: #FCFAF2;
     padding-left: 17rem;
     padding-right:17rem;
     font-size:1.7rem;
     font-weight:300rem;
     line-height:5rem;
-}
-
-.id-areas-of-design-one{
     display:flex;
     justify-content:space-between;
 }
 
-.header-three{
-    text-align: center;
+.area-one-wrapper{
+    margin-bottom:2rem;
 }
 
-.area-para{
+.header-with-flex{
+    text-align:center;
+    margin-bottom:1rem;
+}
+
+.area-para-two{
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     line-height:3rem;
-    width:76%;
-    margin:0 auto 4rem auto;
     padding:3rem;
-    border: 1px solid #3b3939
+    border: 1px solid #3b3939;
+    margin:0;
 }
 
-.area-one-wrapper{
-    width:46%;
+.solution-side-wrapper{
+    margin-left:60px;
 }
 
-.img-wrapper-three,.img-wrapper-five{
-    width:45%;
-    margin-bottom:40px;
+.solution-two{
+    margin-bottom:3rem;
 }
 
-.img-wrapper-four{
-    display:flex;
-    flex-direction:column;
-    width:45%;
-    margin-bottom:40px;
+.img-wrapper-five{
+    width:100%;
 }
+
 
 /*Style Section*/
 
@@ -280,7 +279,7 @@ a:hover{
 }
 
 .research-quote-two{
-    width:30%;
+    width:45%;
     line-height: 2.7rem;
     font-size:1.5rem;
     margin:auto;
@@ -305,11 +304,11 @@ a:hover{
 }
 
 .nav-two{
-    color:#1191ec;
     margin-left:4rem;
 }
 
 .nav-four{
+    color:#1191ec;
     margin-left:-4rem;
 }
 
@@ -337,7 +336,6 @@ a:hover{
 }
 
 
-
 @media(max-width:1150px){
     .header-img-wrapper{
         width:100%;
@@ -347,8 +345,9 @@ a:hover{
 
     .research-project-section,.design-project-section,
     .design-areas-project-section, .styles-section{
-        padding-right:1.2rem;
-        padding-left:1.2rem;
+        padding-right:1rem;
+        padding-left:1rem;
+        width:100%;
     }
 
     .nav-wrapper{
@@ -361,14 +360,25 @@ a:hover{
 @media(max-width:1140px){
 
     
-    .header-text,.section-one, .id-areas-of-design, .id-areas-of-design-one{
+    .header-text,.section-one, .id-areas-of-design, .id-areas-of-design-one,.design-areas-project-section{
         flex-direction: column;
-        margin:auto;
     }
 
-    .header,.opening-para,.section-one-para,.section-one-figure,.design-project-section,
-    .area-one-wrapper-one, .audit-img, .design-area-para,
-    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.responsive-tablet,.research-quote-two,.final-img-wrapper{
+    .section-one{
+        margin-bottom:3rem;
+    }
+
+    .solution-side-wrapper{
+        margin-left:0;
+    }
+
+    .id-areas-of-design-bottom{
+        margin-bottom:3rem;
+    }
+
+    .header,.opening-para,.section-one-figure,
+    .area-one-wrapper-one,.design-area-para,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.research-quote-two,.final-img-wrapper{
         width:80%;
         margin:auto;
     }
@@ -378,13 +388,7 @@ a:hover{
         margin-bottom:70px;
     }
 
-    .img-wrapper-three,.img-wrapper-four{
-        width:60%;
-        margin:auto;
-    }
-
     .img-wrapper-five{
-        width:50%;
         margin:auto;
     }
 
@@ -397,7 +401,6 @@ a:hover{
     }
 
     .img-style{
-        width:90%;
         margin:auto;
     }
 
@@ -416,16 +419,16 @@ a:hover{
         height:auto;
     }
 
-    .header,.opening-para,.section-one-para,.section-one-figure,.area-one-wrapper-one,
-    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.img-wrapper-three,
-    .img-wrapper-four,.img-style,.research-quote-two,.final-img-wrapper{
+    .header,.opening-para,.section-one-figure,.area-one-wrapper-one,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,
+    .img-style,.research-quote-two,.final-img-wrapper{
         width:90%;
         margin:auto;
     }
 
-    .img-wrapper-three,.img-wrapper-four,.img-style{
-        width:50%;
-        margin:auto;
+    .section-one-para{
+        width:100%;
+        margin: 5rem 0;
     }
 
     .header{
@@ -439,6 +442,6 @@ a:hover{
 
     .nav-wrapper{
         margin-top:8rem;
-        margin-left:8rem;
+        margin-left:6rem;
     }
 }
