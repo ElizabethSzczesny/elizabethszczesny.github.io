@@ -390,9 +390,9 @@ a:hover{
         margin:auto;
     }
 
-    .header,.opening-para,.section-one-para,.section-one-figure,.design-project-section,
-    .area-one-wrapper-one, .audit-img, .design-area-para,
-    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.responsive-tablet,.research-quote-two,.final-img-wrapper{
+    .header,.opening-para,.section-one-figure,
+    .area-one-wrapper-one, .audit-img,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.research-quote-two,.final-img-wrapper{
         width:80%;
         margin:auto;
     }
@@ -440,15 +440,19 @@ a:hover{
         height:auto;
     }
 
-    .header,.opening-para,.section-one-para,.section-one-figure,.area-one-wrapper-one,
-    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.img-wrapper-three,
-    .img-wrapper-four,.img-style,.research-quote-two,.final-img-wrapper{
+    .header,.opening-para,.section-one-figure,.area-one-wrapper-one,
+    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.research-quote-two,.final-img-wrapper{
         width:90%;
         margin:auto;
     }
 
-    .img-wrapper-three,.img-wrapper-four,.img-style{
-        width:50%;
+    .section-one-para{
+        width:100%;
+        margin: 5rem 0;
+    }
+
+    .img-wrapper-three,.img-wrapper-four,.img-wrapper-five,.img-style{
+        width:70%;
         margin:auto;
     }
 
