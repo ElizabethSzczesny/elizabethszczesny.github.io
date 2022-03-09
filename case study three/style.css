@@ -11,25 +11,85 @@
 
 html{
     font-size: 62.5%;
-    /*font-family: 'Oswald', sans-serif;*/
     font-family: 'Nanum Myeongjo', serif;
-    text-transform: uppercase;
+}
+
+img{
+    /*border-radius:4%;*/
+    box-shadow: 40px 40px 12px rgba(0,0,0,0.3);
+}
+
+a{
+    outline:none;
+    text-decoration: none;
+    color:#3b3939;
+}
+
+a:hover{
+    color:#1191ec;
 }
 
 /*End of Common Styles*/
 
-.header{
-    font-size:4rem;
-    text-align: center;
+/*Page Background*/
+
+.whole-body-container{
+    /*height:auto;
+    background-image:url("../images/");
+    background-size: cover;*/
+    background-color: #FCFAF2;
+    border: 1px solid #3b3939;
+    margin:15px;
 }
 
-.img-wrapper{
-    width:50%;
-    margin:20px auto 0 auto;
+.whole-body-container{
+    position: relative;
 }
 
-.img{
-    width:100%;
-    height:100%;
+.site-home-nav{
+    font-size:2.4rem;
+    position:fixed;
+    line-height: 3.4rem;
+    letter-spacing: 0.2rem;
+    padding-left: 5px;
+}
+
+.site-home-nav:hover{
+    color:#1191ec;
+}
+
+/*Page Top*/
+
+.header-img-wrapper{
+    width:60%;
+    height:65vh;
+    margin:auto;
+}
+
+.header-img{
     object-fit:cover;
+    height:100%;
+    width:100%;
+}
+
+.header-text{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.header{
+    font-size:2.4rem;
+    font-weight:300;
+    margin-top:86px;
+    width:35%;
+    text-align:center;
+    line-height:3.7rem;
+}
+
+.opening-para{
+    font-size:1.7rem;
+    font-weight:300;
+    line-height:5rem;
+    margin-top:80px;
+    width:40%;
 }
