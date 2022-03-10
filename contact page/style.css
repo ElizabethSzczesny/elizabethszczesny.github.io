@@ -54,7 +54,7 @@ a:hover{
     color:#1191ec;
 }
 
-/*Cred page*/
+/*Credential page*/
 
 .credentials-section, .contact-section{
     margin-top:100px;
@@ -108,5 +108,59 @@ a:hover{
 }
 
 .center{
-    margin:auto;
+    margin-left:135px;
 }
+
+/*Navigation*/
+
+.nav-wrapper{
+    line-height:40px;
+    margin: 50px auto 0 auto;
+}
+
+.nav-link{
+    color:#dadad8;
+    font-size:3.2rem;
+}
+
+.nav-two{
+    margin-left:4rem;
+}
+
+.nav-three{
+    margin-left:2rem;
+}
+
+.nav-four{
+    margin-left:-4rem;
+}
+
+.nav-five{
+    margin-left:3rem;
+}
+
+.nav-six{
+    color:#1191ec;
+}
+
+/*Footer*/
+
+.footer-wrapper{
+    text-align:center;
+}
+
+.social{
+    width:44px;
+    height:44px;
+    margin:40px 20px 0 20px;
+}
+
+.social:hover{
+    width:46px;
+    height:46px;
+}
+
+.copyright{
+    font-size:1.2rem;
+}
+
