@@ -2,7 +2,6 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
     text-decoration:none;
     outline:none;
     border:none;
@@ -13,13 +12,101 @@ html{
     font-size: 62.5%;
     /*font-family: 'Oswald', sans-serif;*/
     font-family: 'Nanum Myeongjo', serif;
-    text-transform: uppercase;
+    color:#3b3939;
+}
+
+a{
+    outline:none;
+    text-decoration: none;
+    color:#3b3939;
+}
+
+a:hover{
+    color:#1191ec;
 }
 
 /*End of Common Styles*/
 
+.whole-body-container{
+    /*height:auto;
+    background-image:url("../images/");
+    background-size: cover;*/
+    background-color: #FCFAF2;
+    border: 1px solid #3b3939;
+    margin:15px;
+    color:#3b3939;
+}
+
+.whole-body-container{
+    position: relative;
+}
+
+.site-home-nav{
+    font-size:2.4rem;
+    position:fixed;
+    line-height: 3.4rem;
+    letter-spacing: 0.2rem;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.site-home-nav:hover{
+    color:#1191ec;
+}
+
+/*Cred page*/
+
+.credentials-section, .contact-section{
+    margin-top:100px;
+}
+
+.lg{
+    margin-left:100px;
+}
+
 .header{
     font-size:4rem;
+    font-weight:300; 
+    margin: 0 10px 30px 10px;
+}
+
+.side-by-side{
+    display:flex;
+    line-height:1.8rem;
+    font-size:1.5rem;
+    margin-bottom:30px;
+}
+
+.end{
+    margin-bottom:15px;
+}
+
+.cred-logo-wrapper{
+    width:60px;
+    padding: 0 10px 10px 10px;
+}
+
+.cred-logo{
+    width:100%;
+    object-fit: contain;
+}
+
+.resume{
+    font-size:1.8rem;
+}
+
+.resume-box{
+    width:170px;
+    box-shadow: 10px 10px 6px rgba(0,0,0,0.3);;
+    /*background-color:#E9EFF3;*/
+    border: 1px solid #3b3939;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-left:80px;
+    padding:10px;
     text-align: center;
-    color:#1191ec;
+}
+
+.center{
+    margin:auto;
 }
