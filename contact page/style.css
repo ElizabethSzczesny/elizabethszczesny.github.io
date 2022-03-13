@@ -108,13 +108,13 @@ a:hover{
 }
 
 .center{
-    margin-left:135px;
+    margin-left:137px;
 }
 
 /*Navigation*/
 
 .nav-wrapper{
-    line-height:40px;
+    line-height:50px;
     margin: 50px auto 0 auto;
 }
 
@@ -127,9 +127,9 @@ a:hover{
     margin-left:4rem;
 }
 
-.nav-three{
+/*.nav-three{
     margin-left:2rem;
-}
+}*/
 
 .nav-four{
     margin-left:-4rem;
@@ -164,3 +164,37 @@ a:hover{
     font-size:1.2rem;
 }
 
+@media(max-width:1024px){
+    .center{
+        margin:auto;
+    }
+
+    .side-by-side{
+        flex-direction:column;
+        margin-left: 10px;
+    }
+
+    .lg{
+        margin-left:0;
+    }
+
+    .resume-box{
+        margin: 20px 0 0 10px;
+    }
+
+    .nav-wrapper{
+        margin-left:50px;
+        line-height:6.5rem;
+    }
+
+}
+
+@media(max-width:767px){
+    .nav-link{
+        font-size:2rem;
+    }
+
+    .nav-wrapper{
+        line-height:5rem;
+    }
+}
