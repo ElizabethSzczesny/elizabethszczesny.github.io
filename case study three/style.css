@@ -303,7 +303,7 @@ a:hover{
     }
 
     .research-project-section,.design-project-section,
-    .design-areas-project-section, .styles-section{
+    .styles-section{
         padding-right:1.2rem;
         padding-left:1.2rem;
         width:100%;
@@ -319,7 +319,7 @@ a:hover{
 @media(max-width:1140px){
 
     
-    .header-text,.section-one, .id-areas-of-design, .id-areas-of-design-one,.design-areas-project-section{
+    .header-text,.section-one{
         flex-direction: column;
     }
 
@@ -331,13 +331,9 @@ a:hover{
         margin-left:0;
     }
 
-    .id-areas-of-design-bottom{
-        margin-bottom:3rem;
-    }
-
     .header,.opening-para,.section-one-figure,
-    .area-one-wrapper-one,.design-area-para,
-    .area-two-wrapper,.area-three-wrapper, .area-one-wrapper,.research-quote-two,.final-img-wrapper{
+    .design-area-para,
+    .research-quote-two,.final-img-wrapper{
         width:80%;
         margin:auto;
     }
@@ -347,11 +343,7 @@ a:hover{
         margin-bottom:70px;
     }
 
-    .img-wrapper-five{
-        margin:auto;
-    }
-
-    .img-wrapper-three,.img-wrapper-four,.img-wrapper-five,.final-img-wrapper{
+    .final-img-wrapper{
         margin-top:3rem;
     }
 
@@ -393,6 +385,14 @@ a:hover{
     .header{
         margin-top:86px;
         margin-bottom:70px;
+    }
+
+    .img-wrapper-sm{
+        width:40%;
+    }
+
+    .margin-right{
+        margin-right: 1rem;
     }
 
     .nav-link{
