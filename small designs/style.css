@@ -66,7 +66,7 @@ a:hover{
 
 .header{
     /*font-size:3rem;*/
-    font-size:7rem;
+    font-size:9rem;
     font-weight:300;
     width:18%;
     margin-top:90px;
@@ -95,7 +95,7 @@ a:hover{
 }
 
 .mockup-wrapper{
-    width:60%;
+    width:70%;
 }
 
 /*.drawing-wrapper{
@@ -113,14 +113,15 @@ a:hover{
 }
 
 .header-two{
-    font-size:2.4rem;
-    margin-top:10rem;
+    color:#dadad8;
+    font-size:6.5rem;
+    line-height:7rem;
+    width:25%;
 }
 
-.long{
+/*.long{
     width:20%;
-    line-height:3.4rem;
-}
+}*/
 
 .vector-drawing{
     border-radius: 0;
