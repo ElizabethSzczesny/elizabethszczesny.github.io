@@ -1,0 +1,103 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+body{
+    max-width: 1500px;
+    /*margin:4px;
+    border:1px solid black;*/
+}
+
+h1,h2,h3{
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/*End of Common Styles*/
+
+/*Header*/
+
+.header{
+    margin: 3vw 4vw 3vw 4vw;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header-one-wrapper, .header-nav, .header-social-wrapper{
+    display:flex;
+}
+
+.header-one-wrapper{
+    width:475px;
+    justify-content: space-between;
+}
+
+.header-nav{
+    width:200px;
+    justify-content: space-around;
+}
+
+.header-social-wrapper{
+    width:60px;
+    justify-content: space-between;
+}
+
+.social{
+    width:18px;
+    height:18px;
+    margin-top: 1.6rem;
+}
+
+.name-header{
+    font-size: 3.2rem;
+}
+
+.nav-item{
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.one{
+    /*text-decoration: underline;
+    text-underline-offset: 0.5em;*/
+    border-bottom: 1px solid black;
+}
+
+/*End of Header*/
+
+/*Home Images*/
+
+.portfolio-images-home{
+    margin: 3vw 4vw 3vw 4vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.image-wrapper{
+   width:620px;
+   height:450px;
+}
+
+.image-home{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+/*End of Home Images*/
