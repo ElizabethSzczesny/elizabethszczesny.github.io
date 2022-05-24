@@ -1,0 +1,155 @@
+
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+body{
+    max-width: 1500px;
+    margin:4px;
+    /*border:1px solid #AFAC9F;*/
+}
+
+h1,h2,h3{
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+a:link{
+    color:black;
+  }
+  a:visited{
+    color:black;
+  }
+  a:hover{
+    color:black;
+  }
+  a:focus{
+    color:black;
+  }
+  a:active{
+    color:black;
+  }
+
+/*End of Common Styles*/
+
+/*Header*/
+
+.header{
+    margin: 3vw 4vw 3vw 4vw;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header-one-wrapper, .header-nav, .header-social-wrapper{
+    display:flex;
+}
+
+.header-one-wrapper{
+    width:475px;
+    /*width:525px;*/
+    justify-content: space-between;
+}
+
+.header-nav{
+    width:200px;
+    justify-content: space-around;
+}
+
+.header-social-wrapper{
+    width:60px;
+    justify-content: space-between;
+}
+
+.social{
+    width:20px;
+    height:20px;
+    margin-top: 1.6rem;
+}
+
+.name-header{
+    font-size: 3.2rem;
+    color:#AFAC9F;
+}
+
+.nav-item{
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.two{
+    /*text-decoration: underline;
+    text-underline-offset: 0.5em;*/
+    border-bottom: 1px solid black;
+}
+
+/*End of Header*/
+
+/* About Para*/
+
+.about-para{
+    margin: 4.5vw 4vw 3vw 4vw;
+    width:55%;
+}
+
+.home-para-first{
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.about-para-two{
+    width:100%;
+    font-size:2rem;
+    line-height: 3.5rem;
+    font-family: adobe-garamond-pro, serif;
+    font-style: normal;
+    margin-bottom: 6vw;
+}
+
+.lists{
+    display:flex;
+    justify-content: space-between;
+    font-family: adobe-garamond-pro, serif;
+    font-size:2rem;
+    line-height: 3.5rem;
+    width:50%;
+}
+
+
+/*End About Para*/
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    margin: 8vw 4vw 3vw 4vw;
+    font-size:1.7rem;
+}
+
+.footer-align{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+/*End of Footer*/

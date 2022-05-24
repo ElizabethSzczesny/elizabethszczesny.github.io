@@ -18,8 +18,8 @@ html{
 
 body{
     max-width: 1500px;
-    /*margin:4px;
-    border:1px solid black;*/
+    margin:4px;
+    /*border:1px solid #AFAC9F;*/
 }
 
 h1,h2,h3{
@@ -61,6 +61,7 @@ a:link{
 
 .header-one-wrapper{
     width:475px;
+    /*width:525px;*/
     justify-content: space-between;
 }
 
@@ -82,6 +83,7 @@ a:link{
 
 .name-header{
     font-size: 3.2rem;
+    color:#AFAC9F;
 }
 
 .nav-item{
@@ -108,8 +110,11 @@ a:link{
 
 .image-wrapper{
    position: relative;
-   width:620px;
-   height:450px;
+   /*width:620px;
+   height:450px;*/
+   width:640px;
+   height:460px;
+
    margin-bottom: 130px;
 }
 
@@ -127,7 +132,7 @@ a:link{
     top:0;
     z-index:20;
     text-align: center;
-    line-height: 450px;
+    line-height: 460px;
     display: none;
 }
 
@@ -182,3 +187,5 @@ a:link{
 .space{
     margin-bottom: 20px;
 }
+
+/*End of Footer*/
