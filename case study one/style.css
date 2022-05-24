@@ -60,8 +60,27 @@ a:hover{
 
 /*Page Top*/
 
+.top-header{
+    text-align: left;
+    color:#dadad8;
+    font-size:6.5rem;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.top-header-sub{
+    text-align: right;
+    color:#dadad8;
+    font-size:3.5rem;
+}
+
+.opener{
+    padding-right:17rem;
+    padding-left:17rem;
+}
+
 .header-img-wrapper{
-    width:60%;
+    width:68%;
     height:65vh;
     margin:auto;
 }
