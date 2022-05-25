@@ -18,7 +18,6 @@ html{
 
 body{
     max-width: 1500px;
-    margin:4px;
     /*border:1px solid #AFAC9F;*/
 }
 
@@ -83,7 +82,7 @@ a:link{
 
 .name-header{
     font-size: 3.2rem;
-    color:#AFAC9F;
+    /*color:#AFAC9F;*/
 }
 
 .nav-item{
@@ -154,22 +153,46 @@ a:link{
 /*Final Home Styles*/
 
 .home-para{
+    margin: 3vw 4vw 3vw 4vw;
     font-size:3rem;
-    width:60%;
+    width:55%;
 }
 
 .first{
-    margin-bottom: 110px;
+    margin-bottom: 60px;
 }
 
 .underline{
     border-bottom:1px solid black;
-    margin-bottom: 40px;
+    margin-bottom: 140px;
+    width:max-content;
 }
 
 /*End of Final Home Styles*/
 
 /*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    font-size:1.7rem;
+    height:18vw;
+    background-color: #EEEDE7;
+}
+
+.footer-align{
+    margin: 1vw 4vw 1vw 4vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+
+/*End of Footer
 
 .footer{
     display:flex;

@@ -1,0 +1,148 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+body{
+    max-width: 1500px;
+}
+
+h1,h2,h3{
+    font-size: 3.2rem;
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+a:link{
+    color:black;
+  }
+  a:visited{
+    color:black;
+  }
+  a:hover{
+    color:black;
+  }
+  a:focus{
+    color:black;
+  }
+  a:active{
+    color:black;
+  }
+
+/*End of Common Styles*/
+
+/*Header*/
+
+.header{
+    padding: 3vw 4vw 3vw 4vw;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header-one-wrapper, .header-nav, .header-social-wrapper{
+    display:flex;
+    z-index: 20;
+}
+
+.header-one-wrapper{
+    width:510px;
+    /*width:525px;*/
+    justify-content: space-between;
+}
+
+.header-nav{
+    width:250px;
+    justify-content: space-around;
+}
+
+.header-social-wrapper{
+    width:60px;
+    justify-content: space-between;
+}
+
+.social{
+    width:20px;
+    height:20px;
+    margin-top: 1.6rem;
+}
+
+.name-header{
+    font-size: 3.2rem;
+}
+
+.nav-item{
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.one{
+    /*text-decoration: underline;
+    text-underline-offset: 0.5em;*/
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.dropdown{
+    display:none;
+    position:absolute;
+    font-size:1.6rem;
+    line-height:4rem;
+    background-color: white;
+    padding:15px;
+    width: max-content;
+    border: 1px solid black;
+}
+
+.indent{
+    margin-left:20px;
+}
+
+.hover:hover {
+    color:#AFAC9F;
+}
+
+.one:hover .dropdown{
+    display:block;
+}
+
+/*End of Header*/
+
+.project-opening{
+    margin: 3vw 17vw 3vw 17vw;
+}
+
+.header-img-wrapper{
+    width:80%;
+    height:70vh;
+    margin: auto;
+}
+
+.header-img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.opening-para{
+    width:50%;
+    font-size:1.8rem;
+    line-height: 3.5rem;
+    font-family: adobe-garamond-pro, serif;
+    font-style: normal;
+    margin: 2vw 0 6vw 0;
+}

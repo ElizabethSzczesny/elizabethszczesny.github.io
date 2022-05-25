@@ -19,7 +19,6 @@ html{
 
 body{
     max-width: 1500px;
-    margin:4px;
     /*border:1px solid #AFAC9F;*/
 }
 
@@ -114,7 +113,7 @@ a:link{
 
 .about-para-two{
     width:100%;
-    font-size:2rem;
+    font-size:1.8rem;
     line-height: 3.5rem;
     font-family: adobe-garamond-pro, serif;
     font-style: normal;
@@ -125,11 +124,20 @@ a:link{
     display:flex;
     justify-content: space-between;
     font-family: adobe-garamond-pro, serif;
-    font-size:2rem;
+    font-size:1.8rem;
     line-height: 3.5rem;
     width:50%;
+    margin-bottom:70px;
 }
 
+.contact-box{
+    background-color: white;
+    font-family: adobe-garamond-pro, serif;
+    font-size:2rem;
+    padding:20px;
+    border: 2px solid black;
+    margin-bottom: 140px;
+}
 
 /*End About Para*/
 
@@ -138,11 +146,13 @@ a:link{
 .footer{
     display:flex;
     justify-content: space-between;
-    margin: 8vw 4vw 3vw 4vw;
     font-size:1.7rem;
+    background-color: #EEEDE7;
+    height:18vw;
 }
 
 .footer-align{
+    margin: 1vw 4vw 1vw 4vw;
     display:flex;
     flex-direction:column;
     justify-content: space-around;
