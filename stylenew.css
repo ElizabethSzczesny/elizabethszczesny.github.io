@@ -96,6 +96,10 @@ a:link{
     border-bottom: 1px solid black;
 }
 
+.letter-space{
+    letter-spacing: 0.1rem;
+}
+
 /*End of Header*/
 
 /*Home Images*/

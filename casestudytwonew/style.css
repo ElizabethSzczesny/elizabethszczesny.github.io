@@ -20,11 +20,40 @@ body{
     max-width: 1500px;
 }
 
-h1,h2,h3{
+h1,h2{
     font-size: 3.2rem;
     font-weight: lighter;
     margin-block-start: 0;
     margin-block-end: 0;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:1.5rem;
+    letter-spacing: 0.2rem;
+    line-height:4rem;
+    padding:3rem;
+}
+
+blockquote{
+    font-size: 3.2rem;
+    font-weight: lighter;
+    width:70%;
+    margin:0 auto 6vw auto;
+}
+
+p{
+    font-size:1.8rem;
+    line-height: 3.5rem;
+    font-family: adobe-garamond-pro, serif;
+    margin: 2vw 0 6vw 0;
+}
+
+.img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
 }
 
 a:link{
@@ -106,6 +135,14 @@ a:link{
     padding:15px;
     width: max-content;
     border: 1px solid black;
+    font-family: adobe-garamond-pro, serif;
+}
+
+.second-nav{
+    text-transform: uppercase;
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: orpheuspro, serif;
 }
 
 .indent{
@@ -122,9 +159,43 @@ a:link{
 
 /*End of Header*/
 
-.project-opening{
-    margin: 3vw 17vw 3vw 17vw;
+/*Project Introduction*/
+
+.project-header-container{
+    margin: 3vw 15vw 0vw 15vw;
+    display:flex;
+    justify-content: space-between;
 }
+
+.project-opening{
+    width:50%;
+}
+
+.opening-para{
+    font-size:1.8rem;
+    line-height: 3.5rem;
+    font-family: adobe-garamond-pro, serif;
+    font-style: normal;
+    margin: 2vw 0 6vw 0;
+}
+
+.project-lists{
+    display:flex;
+    justify-content: space-between;
+}
+
+.project-content-list, .list-arrows{
+    text-transform: uppercase;
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+    line-height:4rem;
+    padding:3rem;
+}
+
+
+/*End Project Introduction*/
+
+/*Project Image*/
 
 .header-img-wrapper{
     width:80%;
@@ -132,17 +203,79 @@ a:link{
     margin: auto;
 }
 
-.header-img{
-    width:100%;
-    height:100%;
-    object-fit: cover;
+/*End Project Image*/
+
+/*User Research*/
+
+#user-research-container{
+    margin: 3vw 10vw 0vw 10vw;
 }
 
-.opening-para{
-    width:50%;
-    font-size:1.8rem;
-    line-height: 3.5rem;
-    font-family: adobe-garamond-pro, serif;
-    font-style: normal;
-    margin: 2vw 0 6vw 0;
+.user-container{
+    display:flex;
+    justify-content: space-between;
 }
+
+.user-para{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+}
+
+.user-img-wrapper{
+    width:65%;
+}
+
+.radius{
+    border-radius: 10%;
+}
+
+/*End of User Research*/
+
+/*Information Architecture*/
+
+#information-architecture-container{
+    margin: 9vw 10vw 9vw 10vw;
+}
+
+.info-arch-wrapper{
+    width:60%;
+}
+
+.arch-flex-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.arch-para{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+}
+
+/*End of Information Architecture*/
+
+/*Break Image*/
+
+.photo-break-container{
+    position:relative;
+}
+
+.break-image-wrapper{
+    height:30vw;
+}
+
+.break-image-header{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size:5rem;
+    color:white;
+}
+
+
+/*End of Break Image*/
