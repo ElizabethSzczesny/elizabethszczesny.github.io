@@ -32,7 +32,6 @@ h3{
     text-align: center;
     font-size:1.5rem;
     letter-spacing: 0.2rem;
-    line-height:4rem;
     padding:3rem;
 }
 
@@ -236,7 +235,7 @@ a:link{
 /*Information Architecture*/
 
 #information-architecture-container{
-    margin: 9vw 10vw 9vw 10vw;
+    padding: 9vw 10vw 9vw 10vw;
 }
 
 .info-arch-wrapper{
@@ -273,9 +272,107 @@ a:link{
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
-    font-size:5rem;
     color:white;
 }
 
+.break-header{
+    font-size:5rem;
+}
 
 /*End of Break Image*/
+
+/*Design Process*/
+.wireframe-container{
+    padding: 5vw 16vw 3vw 16vw;
+    background-color: #AFAC9F;
+}
+
+.side-by-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contain{
+    object-fit: contain;
+}
+
+.wire-wrapper-lg{
+    width:35%;
+}
+
+.wire-wrapper-sm{
+    width:10%;
+}
+
+.pain-para{
+    width:33%;
+}
+
+.pain-point-img-wrapper{
+    width:60%;
+}
+
+.no-padding{
+    padding:0;
+}
+
+/*End of Design Process*/
+
+#usability-studies-container{
+    margin: 3vw 10vw 3vw 10vw;
+}
+
+#final-prototype-container{
+    padding: 5vw 16vw 3vw 16vw;
+    background-color: #AFAC9F;
+}
+
+/*Final Section*/
+
+.final-img-wrapper{
+    width:70%;
+    margin:6vw 1vw 6vw 1vw;
+}
+
+.final-thoughts-container{
+    position:relative;
+}
+
+.final-words{
+    position:absolute;
+    background-color: #FAF8F6;
+    top:50%;
+    transform: translateY(-50%);
+    left:63%;
+    padding:40px;
+    width:30%;
+}
+
+.less-padding{
+    margin:2vw 0 2vw 0;;
+}
+
+/*End of Final Section*/
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    font-size:1.7rem;
+    height:18vw;
+    background-color: #EEEDE7;
+}
+
+.footer-align{
+    margin: 1vw 4vw 1vw 4vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+/*End of Footer*/
