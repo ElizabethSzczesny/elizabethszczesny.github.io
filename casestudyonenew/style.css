@@ -161,13 +161,13 @@ a:link{
 /*Project Introduction*/
 
 .project-header-container{
-    margin: 3vw 15vw 0vw 15vw;
+    margin: 3vw 14vw 0vw 14vw;
     display:flex;
     justify-content: space-between;
 }
 
 .project-opening{
-    width:50%;
+    width:54%;
 }
 
 .opening-para{
@@ -198,7 +198,7 @@ a:link{
 
 .header-img-wrapper{
     width:80%;
-    height:70vh;
+    height:80vh;
     margin: auto;
 }
 
@@ -207,7 +207,7 @@ a:link{
 /*User Research*/
 
 #user-research-container{
-    margin: 3vw 10vw 0vw 10vw;
+    margin: 3vw 10vw 9vw 10vw;
 }
 
 .user-container{
@@ -232,7 +232,7 @@ a:link{
 
 /*End of User Research*/
 
-/*Information Architecture*/
+/*Information Architecture
 
 #information-architecture-container{
     padding: 9vw 10vw 9vw 10vw;
@@ -255,7 +255,7 @@ a:link{
     width:30%;
 }
 
-/*End of Information Architecture*/
+End of Information Architecture*/
 
 /*Break Image*/
 
@@ -284,7 +284,7 @@ a:link{
 /*Design Process*/
 .wireframe-container{
     padding: 5vw 16vw 6vw 16vw;
-    background-color: #AFAC9F;
+    /*background-color: #AFAC9F;*/
     /*background-color: #DAD7D4;*/
 }
 
