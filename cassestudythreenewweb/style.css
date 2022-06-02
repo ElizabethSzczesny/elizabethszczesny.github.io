@@ -204,6 +204,9 @@ a:link{
 
 /*End Project Image*/
 
+/*#usability-studies-container{
+    margin: 3vw 10vw 3vw 10vw;
+}*/
 
 /*Information Architecture*/
 
@@ -298,21 +301,19 @@ a:link{
 }
 
 .column-right-long{
-    width:50%;
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    width:51%;
 }
 
 .column-right-sm, .column-left-sm{
     width:96%;
-    padding-bottom:18px;
+    padding:16px;
 }
 
-.insert{
-    align-self: flex-start;
+.put-flex-here{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
-
 
 /*.side-by-side{
     padding:10px;
