@@ -302,6 +302,9 @@ a:link{
 
 .column-right-long{
     width:51%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .column-right-sm, .column-left-sm{
@@ -309,10 +312,12 @@ a:link{
     padding:16px;
 }
 
-.put-flex-here{
-    display:flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.insert{
+    height:242px;
+}
+
+.main{
+    margin-top:32px;
 }
 
 /*.side-by-side{
