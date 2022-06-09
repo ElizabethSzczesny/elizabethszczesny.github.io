@@ -118,7 +118,7 @@ img{
 /*Home Images*/
 
 .portfolio-images-home{
-    margin: 3vw 4vw 3vw 4vw;
+    margin: 6vw 7vw 3vw 7vw;
     display:flex;
     flex-wrap:wrap;
     justify-content: space-between;
@@ -126,10 +126,10 @@ img{
 
 .image-wrapper{
    position: relative;
-   /*width:620px;
-   height:450px;*/
-   width:640px;
-   height:460px;
+   width:570px;
+   height:400px;
+   /*width:640px;
+   height:460px;*/
 
    margin-bottom: 130px;
 }
@@ -173,6 +173,7 @@ img{
     margin: 3vw 4vw 3vw 4vw;
     font-size:3rem;
     width:55%;
+    min-width:350px;
 }
 
 .first{
@@ -182,7 +183,7 @@ img{
 .underline{
     border-bottom:1px solid black;
     margin-bottom: 140px;
-    width:max-content;
+    width:min-content;
 }
 
 /*End of Final Home Styles*/
@@ -229,3 +230,14 @@ img{
 }
 
 /*End of Footer*/
+
+@media(max-width:500px){
+    .image-wrapper{
+        width:350px;
+        height:250px;
+    }
+
+    .portfolio-images-home{
+        justify-content:center;
+    }
+}
