@@ -19,6 +19,7 @@ html{
 body{
     max-width: 1500px;
     /*border:1px solid #AFAC9F;*/
+    margin:auto;
 }
 
 h1,h2,h3{
@@ -43,6 +44,11 @@ a:link{
     color:black;
   }
 
+img{
+    width:100%;
+    height:100%;
+}
+
 /*End of Common Styles*/
 
 /*Header*/
@@ -59,9 +65,17 @@ a:link{
 }
 
 .header-one-wrapper{
-    width:475px;
-    /*width:525px;*/
+    /*width:475px;*/
+    width:440px;
     justify-content: space-between;
+}
+
+.header-logo{
+    width:100px;
+}
+
+.logo{
+    height:auto;
 }
 
 .header-nav{
@@ -85,7 +99,7 @@ a:link{
 }
 
 .nav-item{
-    margin-top: 1.2rem;
+    margin-top: 1.6rem;
     font-size: 1.7rem;
 }
 
