@@ -115,13 +115,13 @@ End of Header*/
 }
 
 .header-one-wrapper{
-    width:510px;
+    width:480px;
     /*width:525px;*/
     justify-content: space-between;
 }
 
 .header-nav{
-    width:250px;
+    width:240px;
     justify-content: space-around;
 }
 
