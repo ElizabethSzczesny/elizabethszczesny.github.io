@@ -350,4 +350,8 @@ a:link{
     margin-bottom: 20px;
 }
 
+.contain{
+    object-fit: contain;
+}
+
 /*End of Footer*/
