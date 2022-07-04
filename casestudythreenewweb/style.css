@@ -350,6 +350,12 @@ a:link{
     margin-bottom: 20px;
 }
 
+.footer-cred{
+    margin: 1vw 4vw 1vw 4vw;
+    width:11%;
+    height:auto;
+}
+
 .contain{
     object-fit: contain;
 }
