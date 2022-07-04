@@ -329,7 +329,6 @@ a:link{
 
 /*End of Slideshow*/
 
-/*Footer*/
 
 .footer{
     display:flex;
@@ -337,6 +336,32 @@ a:link{
     font-size:1.7rem;
     height:18vw;
     /*background-color: #EEEDE7;*/
+}
+
+.footer-align{
+    margin: 1vw 4vw 1vw 4vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+.contain{
+    object-fit: contain;
+}
+
+
+/*Footer
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    font-size:1.7rem;
+    height:18vw;
+    /*background-color: #EEEDE7;
 }
 
 .footer-align{
@@ -360,4 +385,4 @@ a:link{
     object-fit: contain;
 }
 
-/*End of Footer*/
+End of Footer*/
