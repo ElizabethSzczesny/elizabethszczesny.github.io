@@ -210,14 +210,18 @@ img{
     margin-bottom: 20px;
 }
 
-.footer-cred{
+/*.footer-cred{
     margin: 1vw 4vw 1vw 4vw;
     width:12%;
     height:auto;
-}
+}*/
 
 .contain{
     object-fit: contain;
+}
+
+.cred{
+    width:140px;
 }
 
 
