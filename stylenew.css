@@ -171,7 +171,8 @@ img{
 /*Final Home Styles*/
 
 .home-para{
-    margin: 3vw 4vw 3vw 4vw;
+    /*margin: 3vw 4vw 3vw 4vw;*/
+    margin: 3vw 7vw 3vw 7vw;
     font-size:3rem;
     width:55%;
     min-width:350px;
@@ -184,7 +185,9 @@ img{
 .underline{
     border-bottom:1px solid black;
     margin-bottom: 140px;
-    width:min-content;
+    width:238px;
+    margin: 3vw 7vw 3vw 7vw;
+    font-size:3rem;
 }
 
 /*End of Final Home Styles*/
