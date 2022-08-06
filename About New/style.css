@@ -251,4 +251,9 @@ End of Header*/
     margin-bottom: 20px;
 }
 
+.about-cred{
+    width:140px;
+    object-fit:contain;
+}
+
 /*End of Footer*/
