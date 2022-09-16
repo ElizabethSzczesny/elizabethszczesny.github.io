@@ -225,7 +225,7 @@ End of Header*/
     font-size:2rem;
     padding:20px;
     border: 2px solid black;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
 }
 
 /*End About Para*/
@@ -236,7 +236,7 @@ End of Header*/
     display:flex;
     justify-content: space-between;
     font-size:1.7rem;
-    background-color: #EEEDE7;
+    */background-color: #EEEDE7;*/
     height:18vw;
 }
 
