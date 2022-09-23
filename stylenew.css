@@ -183,7 +183,7 @@ img{
 }
 
 .underline{
-    border-bottom:1px solid black;
+    /*border-bottom:1px solid black;*/
     margin-bottom: 140px;
     width:238px;
     margin: 3vw 7vw 3vw 7vw;
