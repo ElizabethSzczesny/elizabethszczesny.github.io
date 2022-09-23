@@ -121,8 +121,8 @@ a:link{
 
 .one{
     /*text-decoration: underline;
-    text-underline-offset: 0.5em;*/
-    border-bottom: 1px solid black;
+    text-underline-offset: 0.5em;
+    border-bottom: 1px solid black;*/
     position: relative;
 }
 
@@ -145,7 +145,7 @@ a:link{
     font-family: orpheuspro, serif;
 }
 
-.indent{
+.indent-top{
     margin-left:20px;
 }
 
