@@ -289,6 +289,10 @@ End of Information Architecture*/
     /*background-color: #DAD7D4;*/
 }
 
+.unique{
+    padding: 5vw 16vw 0vw 16vw;
+}
+
 .side-by-side{
     display: flex;
     justify-content: space-between;
@@ -305,6 +309,11 @@ End of Information Architecture*/
 .wire-wrapper-lg{
     margin-top: 3vw;
     width:100%;
+}
+
+.wireframes-wrapper{
+    width:80%;
+    margin:auto;
 }
 
 /*.wire-wrapper-sm{
@@ -343,6 +352,10 @@ End of Information Architecture*/
 
 .research-quote{
     width:60%;
+}
+
+.unique-two{
+    padding-bottom: 0vw;
 }
 
 /*High Fidelity Prototype*/
