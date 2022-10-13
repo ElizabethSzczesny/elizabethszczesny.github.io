@@ -68,20 +68,15 @@ img{
 .header-one-wrapper{
     /*width:475px;*/
     width:440px;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .header-logo{
-    width:100px;
+    width:400px;
 }
 
 .logo{
-    height:auto;
-}
-
-.header-nav{
-    width:220px;
-    justify-content: space-around;
+    object-fit:contain;
 }
 
 .header-social-wrapper{
@@ -104,10 +99,8 @@ img{
     font-size: 1.7rem;
 }
 
-.one{
-    /*text-decoration: underline;
-    text-underline-offset: 0.5em;*/
-    border-bottom: 1px solid black;
+.two{
+    padding-right:22px;
 }
 
 .letter-space{
