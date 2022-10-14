@@ -209,11 +209,11 @@ a:link{
 /*Information Architecture (Graphic design)*/
 
 #information-architecture-container{
-    padding: 6vw 10vw 3vw 10vw;
+    padding: 6vw 10vw 2vw 10vw;
 }
 
 .info-arch-wrapper{
-    width:60%;
+    width:50%;
 }
 
 .arch-flex-container{
@@ -226,7 +226,7 @@ a:link{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width:30%;
+    width:40%;
 }
 
 /*End of Information Architecture (Graphic Design)*/
