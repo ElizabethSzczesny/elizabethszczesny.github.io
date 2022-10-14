@@ -1,0 +1,340 @@
+/* Common Styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    outline:none;
+    border:none;
+    list-style:none;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: orpheuspro, serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+body{
+    max-width: 1500px;
+    margin:auto;
+}
+
+h1,h2{
+    font-size: 3.2rem;
+    font-weight: lighter;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:1.5rem;
+    letter-spacing: 0.2rem;
+    padding:3rem;
+}
+
+blockquote{
+    font-size: 3.2rem;
+    font-weight: lighter;
+    width:70%;
+    margin:0 auto 6vw auto;
+}
+
+p{
+    font-size:1.8rem;
+    line-height: 3.5rem;
+    font-family: adobe-garamond-pro, serif;
+    margin: 2vw 0 6vw 0;
+}
+
+.img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+a:link{
+    color:black;
+  }
+  a:visited{
+    color:black;
+  }
+  a:hover{
+    color:black;
+  }
+  a:focus{
+    color:black;
+  }
+  a:active{
+    color:black;
+  }
+
+/*End of Common Styles*/
+
+/*Header*/
+
+.header{
+    padding: 3vw 4vw 3vw 4vw;
+    display:flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header-one-wrapper, .header-nav, .header-social-wrapper{
+    display:flex;
+    z-index: 20;
+}
+
+.header-one-wrapper{
+    width:510px;
+    /*width:525px;*/
+    justify-content: space-between;
+}
+
+.header-nav{
+    width:250px;
+    justify-content: space-around;
+}
+
+.header-social-wrapper{
+    width:60px;
+    justify-content: space-between;
+}
+
+.social{
+    width:20px;
+    height:20px;
+    margin-top: 1.6rem;
+}
+
+.name-header{
+    font-size: 3.2rem;
+}
+
+.nav-item{
+    margin-top: 1.6rem;
+    font-size: 1.7rem;
+}
+
+.one{
+    /*text-decoration: underline;
+    text-underline-offset: 0.5em;
+    border-bottom: 1px solid black;*/
+    position: relative;
+}
+
+.dropdown{
+    display:none;
+    position:absolute;
+    font-size:1.6rem;
+    line-height:4rem;
+    background-color: white;
+    padding:15px;
+    width: max-content;
+    border: 1px solid black;
+    font-family: adobe-garamond-pro, serif;
+}
+
+.second-nav{
+    text-transform: uppercase;
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: orpheuspro, serif;
+}
+
+.indent{
+    margin-left:20px;
+}
+
+.hover:hover {
+    color:#AFAC9F;
+}
+
+.one:hover .dropdown{
+    display:block;
+}
+
+/*End of Header*/
+
+/*Project Introduction*/
+
+.project-header-container{
+    margin: 3vw 15vw 0vw 15vw;
+    display:flex;
+    justify-content: space-between;
+}
+
+.project-opening{
+    width:50%;
+}
+
+.opening-para{
+    font-size:1.8rem;
+    line-height: 3.5rem;
+    font-family: adobe-garamond-pro, serif;
+    font-style: normal;
+    margin: 2vw 0 6vw 0;
+}
+
+.project-lists{
+    display:flex;
+    justify-content: space-between;
+}
+
+.project-content-list, .list-arrows{
+    text-transform: uppercase;
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+    line-height:4rem;
+    padding:3rem;
+}
+
+
+/*End Project Introduction*/
+
+/*Project Image*/
+
+.header-img-wrapper{
+    width:80%;
+    height:80vh;
+    margin: auto;
+}
+
+/*End Project Image*/
+
+
+/*Information Architecture (Graphic design)*/
+
+#information-architecture-container{
+    padding: 6vw 10vw 3vw 10vw;
+}
+
+.info-arch-wrapper{
+    width:60%;
+}
+
+.arch-flex-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.arch-para{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+}
+
+/*End of Information Architecture (Graphic Design)*/
+
+/*Wireflow (Design System)*/
+
+#wireflow-container{
+    padding:3vw 10vw 2vw 10vw;
+}
+
+.info-flow-wrapper{
+    width:60%;
+}
+
+.flow-flex-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flow-para{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:30%;
+}
+
+/*Wireflow (Design System)*/
+
+/*Break Image (high-fidelity prototype)*/
+
+.break-image-header{
+    text-align: center;
+    color:black;
+}
+
+.break-header{
+    font-size:5rem;
+}
+
+/*Break Image (high-fidelity prototype)*/
+
+/*Slideshow*/
+
+.slideshow-container{
+    margin:3vw 3vw 9vw 3vw;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-shadow{
+    box-shadow:0 0 4px rgba(0,0,0,0.2);
+}
+
+.column-left{
+    width:48%;
+    height:auto;
+    margin-bottom: 20px;
+}
+
+.column-right{
+    width:48%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.unique{
+    height: 160px;
+    margin-top: 25px;
+}
+
+.unique-two{
+    margin-top: 25px;
+}
+
+/*Slideshow*/
+
+/*Footer*/
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    font-size:1.7rem;
+    height:18vw;
+    /*background-color: #EEEDE7;*/
+}
+
+.footer-align{
+    margin: 1vw 4vw 1vw 4vw;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+.contain{
+    object-fit: contain;
+}
+
+.cred{
+    width:140px;
+}
+
+/*Footer
